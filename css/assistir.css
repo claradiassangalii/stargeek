@@ -1,21 +1,108 @@
+@font-face {
+    font-family: 'guardioes';
+    src: url(../Guardians.ttf);
+}
 *{  margin: 0;
     padding: 0;
     box-sizing: border-box;
     border: 0;
 }
+
 body{
-    background-color:rgb(73,89,186);
-    background: radial-gradient(circle, rgba(73,89,186,0.9921218487394958) 99%, rgba(78,95,200,0) 100%);;
+    background-color:black;
+    
 
 }
-header {
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header>img{
+    height: 100px;
+    width: 100px;
+}
+
+video {
+    width: 100%;
+    
+}
+.tarde{
+    color: aliceblue;
+}
+.ban{
+    font-family: 'guardioes';
+    text-align: left;
+    margin: 10px;
+    padding: 50px;
+    width: 100%;
+    margin-top: -500px;
+}
+p{
+    color: white;
+    padding: 20px;
+}
+nav{
+    width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 2px 2px 5px black;
 }
-.menu1 {
+i{
+    color: white;
+}
+input{
+    color: white;
+}
+input{
+    text-align: center;
+    width: 192px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid red;
+    color: white;
+    margin: -20px;
+    background: transparent;
+}
+h1{
+    color: white;
+    padding: 30px;
+    text-shadow: 3px 3px 7px black;
+}
+.a1{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 10px;
+}
+header>main{
+    padding: 20px;
+}
+nav > img{
+    width: 61px;
+    height: 61px;
+}
+
+/* Imagem do meio */
+main {
+    
+    padding-top: 50px;
+}
+.meio{
+    border-radius: 30px;
+
+
+}
+.meio{
     display: flex;
-    height: 100%;
-    align-items: center;
+    
+}
+
+.meio {
+    overflow: scroll;
+    gap: 10px;
+}
+.meio::-webkit-scrollbar{
+    display: none;
 }
