@@ -14,7 +14,6 @@ background: radial-gradient(circle, rgba(73,89,186,0.9921218487394958) 99%, rgba
     border: 6px solid black;
     border-radius: 20px ;
     padding: 20px;
-    flex
     margin-left: 300px ;
     margin-right: 300px;
     margin-bottom: 10px;
@@ -30,7 +29,7 @@ background: radial-gradient(circle, rgba(73,89,186,0.9921218487394958) 99%, rgba
     width: 546px;
 }
 
-a{
+.a{
     color: white;
     text-decoration: none;
     background-color: red;

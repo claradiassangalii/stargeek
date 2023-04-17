@@ -26,20 +26,27 @@ video {
     width: 100%;
     
 }
-.tarde{
-    color: aliceblue;
-}
+
 .ban{
     font-family: 'guardioes';
     text-align: left;
     margin: 10px;
     padding: 50px;
-    width: 100%;
+    width: 95%;
     margin-top: -500px;
+}
+.ban2{
+    font-family: 'guardioes';
+    text-align: left;
+    margin: 10px;
+    padding: 50px;
+    width: 95%;
+    margin-top: -381px;
 }
 p{
     color: white;
     padding: 20px;
+    margin: 20px;
 }
 nav{
     width: 70%;
@@ -91,12 +98,27 @@ main {
 }
 .meio{
     border-radius: 30px;
-
+    padding: 20px;
+   margin: 10px;
 
 }
 .meio{
     display: flex;
     
+}
+.bt1{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    background-color: #7CB9E8;
+    border: 2px solid ;
+    padding: 10px;
+    margin-left: 30px;
+    
+}
+.bt1:hover{
+   background-color: pink
 }
 
 .meio {
@@ -105,4 +127,96 @@ main {
 }
 .meio::-webkit-scrollbar{
     display: none;
+}
+.Guardioes:hover{
+    content: url(../img/guardioes\ gif.gif);
+}
+.menina:hover{
+    content: url(../img/menina\ dos\ pais.gif);
+}
+.telefone:hover{
+    content: url(../img/telefonepreto.gif);
+}
+.profecia:hover{
+    content: url(../img/profecia.gif);
+}
+.adao:hover{
+    content: url(../img/black-adam-teth.gif);
+}
+.mario:hover{
+    content: url(../img/mario-bros-the-super-mario-movie.gif);
+}
+.quan:hover{
+    content: url(../img/quantumania-ant-man.gif);
+}
+.assis{
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid red;
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+}
+.serie{
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 2px solid red;
+}
+.serie:hover{
+    background: rgb(252,70,107);
+    background: radial-gradient(circle, rgba(252,70,107,1) 0%, rgba(150,17,210,0.9529061624649859) 0%);
+}
+.topic{
+    text-align: center;
+}
+
+.livro{
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+   
+    border: 2px solid  #7CB9E8;
+}
+.livro:hover{
+    background: rgb(252,70,107);
+    background: radial-gradient(circle, rgba(252,70,107,1) 0%, rgba(173,237,134,0.9529061624649859) 0%);
+}
+footer {
+    border-top: 2px solid black;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.infos {
+    margin: 15px;
+    margin-top: 20px;
+    display: flex;
+    color: white;
+}
+.infos ul {
+    margin-left: 60px;
+}
+.infos > ul >li{
+    margin: 15px;
+
+}
+
+@media (max-width:500px){
+    .e {
+        margin:0px;
+    }
+    .ter{
+        font-size: 15px;
+    }
 }
