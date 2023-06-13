@@ -70,3 +70,14 @@ text-align: center;
 .um:hover{
     background-color: blueviolet;
 }
+@media (max-width:500px){
+    h1{
+        font-size: 35px;
+    }
+    .tela{
+        height: 109px;
+        width: 114px;
+        padding: 11px;
+    }
+    
+}

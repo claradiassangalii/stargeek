@@ -41,3 +41,29 @@ background: radial-gradient(circle, rgba(73,89,186,0.9921218487394958) 99%, rgba
     
     color:red
 }
+.um{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+   
+}
+@media (max-width:500px) {
+    header{
+        flex-direction: column;
+    }
+    .meio{
+        font-size: 20px;
+        margin-right: 12px;
+        margin-left: 4px;
+        margin-top: 50px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .logo{
+        width: 112px;
+        height: 79px;
+    }
+}

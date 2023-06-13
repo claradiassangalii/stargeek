@@ -5,18 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página principal </title>
+    <script src="midia.js"></script>
     <link rel="stylesheet" href="css/assistir.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
-<body>
+<body onload="exibirNovo()">
         <header>
-            <img src="img/logo strageek.png" alt="">
+            <img src="img/logo strageek.png" class="ip" alt="">
             <nav>
-                    <i class="fa fa-search" ><input class="" type="search" ></i> 
-                     <a class="a1" href="midia.html"> Adicionar mídia</a>
-                <img src="img/tela1.png" alt="">
-              <a href="index.html"> <i class="fa fa-sign-out" style="font-size:36px;"></i></a> 
+                    <i class="fa fa-search" ><input class="pesq" type="search" ></i> 
+                     <a href="midia.html"> <img class="a1" src="/img/mais.png"> </a>
+                <img class="img3" src="img/tela1.png" alt="">
+              <a href="index.html"> <i class="fa fa-sign-out" id="sair" style="font-size:36px;"></i></a> 
             </nav>
         </header>
         <video autoplay muted>
@@ -25,7 +27,8 @@
         <h1 class="ban">Guardioes   <br>
                         das <br>
                         Galaxias</h1>
-            <p> O nosso amado grupo de desajustados <br>
+
+            <p class="tex"> O nosso amado grupo de desajustados <br>
                  está bastante diferente nos dias de hoje. <br>
                 Peter Quill, que ainda está a recuperar da <br>
                  perda de Gamora, tem que reunir a sua equipa <br>
@@ -34,7 +37,7 @@
                  pode levar ao fim dos Guardiões como os conhecemos. <br>
                 Um filme de James Gunn. 
             </p>
-            <a class="assis" href="http://#"> assistir mais tarde</a>
+            <a class="assis" id="assis1" href="http://#"> assistir mais tarde</a>
             <a class="assis" href="http://#">  assistir <i class="fa fa-toggle-right"></i></a>
     <main>
                 <h1> Lançamentos: </h1>
@@ -88,7 +91,13 @@
                 <img src="img/comedia4.png" alt="">
                 <img src="img/comedia5.png" alt="">
                 <img src="img/comedia6.png" alt="">
-            </div>      
+            </div>  
+                
+            <h1>Filmes adicionados</h1>
+            <div class="meio" id="assistindo"> 
+                
+                
+            </div>
     </main>
     <footer>
         

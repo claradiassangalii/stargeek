@@ -5,29 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Mídia</title>
+    <script defer src="midia.js"></script>
     <link rel="stylesheet" href="css/midia.css">
 </head>
 <body>
     <header>
         <div class="menu">
-            <a c href="assistir.html"> <img src="img/logo strageek.png"> </a>
+            <a  href="assistir.html"> <img class="assis" src="img/logo strageek.png"> </a>
           
         </div>
     </header>
     <div class="meio">
         <h2> Cadastrar Mídia </h2>
-   <br><br>
-   <h3>título</h3>
-    <input class="enviar" type="email" name="Nome de mídia">
-     <br><br>
-     <h3>Sinopse</h3>
-    <input class="enviar1" type="search" name="Sinopse">
-   <br><br>
-   <input class="foto" type="file" >
-   <br><br>
-    <a class="a1" href="midia.html"> Concluir</a>
-    <br><br>
+
+   <br><br><br>
+   <h3>Link da imagem</h3>
+   <br>
+    <input class="enviar" type="text" id="link" name="link da mídia">
+    <br><br><br><br>
+   <a href="#" class="a1" onclick="exibirFilmes()">cadastrar</a> 
+   
+    <a class="a1" onclick="concluir()"> Concluir</a> 
     
+    <a class ="a1" onclick="limpar()"> limpar </a>
+        
+    <p id="imagem"></p>
     </div>
     
 </body>

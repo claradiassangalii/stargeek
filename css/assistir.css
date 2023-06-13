@@ -76,12 +76,8 @@ h1{
     text-shadow: 3px 3px 7px black;
 }
 .a1{
-    text-decoration: none;
-    color: white;
-    background-color: red;
-    border-radius: 20px;
-    border: 2px solid white;
-    padding: 10px;
+    width: 40px;
+    height: 40px;
 }
 header>main{
     padding: 20px;
@@ -117,6 +113,7 @@ main {
     margin-left: 30px;
     
 }
+
 .bt1:hover{
    background-color: pink
 }
@@ -210,13 +207,143 @@ footer {
 .infos > ul >li{
     margin: 15px;
 
-}
 
+}
+nav .button-collapse {
+    float: left;
+    position: relative;
+    z-index: 1;
+    height: 56px;
+    margin: 0 18px;
+}
+.e{
+ width: 97px;
+}
+.pesq{
+    margin-top: -333px;
+}
 @media (max-width:500px){
-    .e {
-        margin:0px;
+    body{
+        flex-direction: column;
     }
-    .ter{
+    .e {
+        margin:9px;
+        width: 70px;
+        margin-left: 165px;
+    }
+    .pesq{
+        margin-top: 5px;
+        height: 24px;
+        width: 44px; ;
+    }
+    h1{
+        padding: 15px;
+    }
+    .infos{
+        margin: 56px;
+        margin-left: -41px;
+    }
+    .a1{
+        width: 22px;
+        height: 23px;
+        margin-left: -150px;
+        margin-top: 10px;
+        margin-right: 239px;
+    }
+    .ip{
+        width: auto;
+        height: 50px;
+    }
+    .ban{
+        margin: -32px;
+        font-size: 12px;
+        margin-top: -139px;
+
+    }
+    .ban2{
+        margin: -32px;
+        font-size: 12px;
+        margin-top: -139px;
+    }
+    .b2{
+        height: 32px;
+        width: auto;
+    }
+    .pesq2{
+        width: 61px;
+        height: 21px;
+        margin-left: 5px;
+    }
+    .tex{
         font-size: 15px;
+    }
+    .img2{
+        width: 39px;
+        height: 32px;
+    }
+    .img3{ 
+        margin-right: -210px;
+        margin-left: -455px;
+        width: 47px;
+        height: 37px;
+    }
+    #assis1{
+        margin: left 171px;
+    }
+    .meio{
+        width: 349px;
+        height: 191px;
+        gap: 10px;
+    }
+    .assis{
+        margin-left: 24px;
+        padding: 5px;
+    }
+    .bt1:hover{
+        background-color: pink
+     }
+    .topic{
+        margin:-29px;
+        margin-left: -72px;
+        font-size: 13px;
+    }
+    nav > img{
+        margin-left: 5px;
+    }
+    .livro:hover{
+        background: rgb(252,70,107);
+        background: radial-gradient(circle, rgba(252,70,107,1) 0%, rgba(173,237,134,0.9529061624649859) 0%);
+    }
+    .serie:hover{
+        background: rgb(252,70,107);
+        background: radial-gradient(circle, rgba(252,70,107,1) 0%, rgba(150,17,210,0.9529061624649859) 0%);
+    }
+    .meio {
+        overflow: scroll;
+        gap: 10px;
+    }
+    .meio::-webkit-scrollbar{
+        display: none;
+    }
+    .Guardioes:hover{
+        content: url(../img/guardioes\ gif.gif);
+    }
+    .menina:hover{
+        content: url(../img/menina\ dos\ pais.gif);
+    }
+    .telefone:hover{
+        content: url(../img/telefonepreto.gif);
+    }
+    .profecia:hover{
+        content: url(../img/profecia.gif);
+    }
+    .adao:hover{
+        content: url(../img/black-adam-teth.gif);
+    }
+    .mario:hover{
+        content: url(../img/mario-bros-the-super-mario-movie.gif);
+    }
+    .quan:hover{
+        content: url(../img/quantumania-ant-man.gif);
     }
 }
